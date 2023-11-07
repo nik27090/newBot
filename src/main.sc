@@ -9,6 +9,8 @@ theme: /
     state: Hello
         intent!: /привет
         a: Привет приветфывфвы
+        script:
+            log("asd")
 
     state: Bye
         intent!: /пока
