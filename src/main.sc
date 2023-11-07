@@ -9,7 +9,7 @@ theme: /
 
     state: Hello
         intent!: /привет
-        a: Привет приветфывфвы
+        a: Привет приветфывфвый
         a: {{counter.get()}}
     
     state: Bye
