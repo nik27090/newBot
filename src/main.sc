@@ -9,7 +9,7 @@ theme: /
 
     state: Hello
         intent!: /привет
-        a: Привет приветфывфвый
+        a: Привет привеsтфывфвый
         a: {{counter.get()}}
         SumTwoNumbers:
             numberOne = 2
