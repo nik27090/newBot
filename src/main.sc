@@ -11,6 +11,13 @@ theme: /
         intent!: /привет
         a: Привет приветфывфвый
         a: {{counter.get()}}
+        SumTwoNumbers:
+            numberOne = 2
+            numberTwo = 3
+            okState = /AnythingElse
+
+    state: AnythingElse
+        a: Посчитать для вас что-нибудь еще?
     
     state: Bye
         intent!: /пока

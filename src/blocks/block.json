@@ -1,0 +1,69 @@
+{
+    "tagName": "SumTwoNumbers",
+    "startState": "/Blocks/SumTwoNumbers",
+    "scenarioFile": "blocks/block.sc",
+    "caption": {
+        "ru": "Сложить два числа",
+        "eng": "Sum two numbers"
+    },
+    "description": {
+        "ru": "Используйте этот блок, чтобы сложить два числа и отправить ответ со значением суммы.",
+        "eng": "Use this block to calculate the sum of two numbers and send a reply with the result."
+    },
+    "hint": {
+        "ru": "Сложить два числа и отправить ответ со значением суммы",
+        "eng": "Calculate the sum of two numbers and send a reply with the result"
+    },
+    "parameters": [
+        {
+            "name": "numberOne",
+            "type": "integer",
+            "required": true,
+            "select": [{
+                "value": 3,
+                "localization": {
+                    "ru": "Следующий шаг в случае успеха",
+                    "eng": "Next state on success"
+            }}],
+            "localization": {
+                "ru": "Первое число",
+                "eng": "First number"
+            }
+        },
+        {
+            "name": "numberTwo",
+            "type": "integer",
+            "required": true,
+            "localization": {
+                "ru": "Второе число",
+                "eng": "Second number"
+            }
+        },
+        {
+            "name": "okState",
+            "type": "state",
+            "required": false,
+            "localization": {
+                "ru": "Следующий шаг в случае успеха",
+                "eng": "Next state on success"
+            },
+            "description": {
+                "ru": "Бот перейдет в этот шаг, если сумма будет успешно вычислена.",
+                "eng": "The bot will go to this state if it successfully calculates the sum."
+            }
+        },
+        {
+            "name": "errorState",
+            "type": "state",
+            "required": false,
+            "localization": {
+                "ru": "Следующий шаг в случае ошибки",
+                "eng": "Next state on error"
+            },
+            "description": {
+                "ru": "Бот перейдет в этот шаг, если не сможет вычислить сумму.",
+                "eng": "The bot will go to this state if it fails to calculate the sum."
+            }
+        }
+    ]
+}
