@@ -1,6 +1,5 @@
 require: slotfilling/slotFilling.sc
   module = sys.zb-common
-require: kek.js
 theme: /
 
     state: Start
@@ -9,21 +8,11 @@ theme: /
 
     state: Hello
         intent!: /привет
-        a: Привет привеsтфывфвый
-        a: {{counter.get()}}
-        SumTwoNumbers:
-            numberOne = 2
-            numberTwo = 3
-            okState = /AnythingElse
+        a: Привет привет
 
-    state: AnythingElse
-        a: Посчитать для вас что-нибудь еще?
-    
     state: Bye
         intent!: /пока
         a: Пока пока
-        script:
-           counter.increment()
 
     state: NoMatch
         event!: noMatch
