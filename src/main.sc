@@ -12,7 +12,7 @@ theme: /
 
     state: Bye
         intent!: /пока
-        a: Пока покаsdfsdfdsf sdf
+        a: Пока покаsdfsdfdsf sdfxcfsdfsdf
         a: Привет привет
 
     state: Bye
