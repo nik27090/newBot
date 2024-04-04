@@ -8,7 +8,7 @@ theme: /
 
     state: Hello
         intent!: /привет
-        a: Привет приветqwe
+        a: Привет приве  тqwe
 
     state: Bye
         intent!: /пока
