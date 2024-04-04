@@ -9,6 +9,14 @@ theme: /
     state: Hello
         intent!: /привет
         a: Привет приве  тqwe
+        a: Привет приве  тqwe
+        a: Привет приве  тqwe
+        a: Привет приве  тqwe
+        a: Привет приве  тqwe
+        a: Привет приве  тqwe
+        a: Привет приве  тqwe
+        a: Привет приве  тqwe
+
 
     state: NoMatch
         event!: noMatch
