@@ -10,15 +10,6 @@ theme: /
         intent!: /привет
         a: Привет приве  тqwe
 
-    state: Bye
-        intent!: /пока teeeeeeeeeeest
-        a: Пока покаsdfsdfdsf sdfxcfsdfsdf
-        a: Привет привет
-
-    state: Bye
-        intent!: /пока
-        a: Пока покаdxfsdfgdfg
-
     state: NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
