@@ -11,7 +11,7 @@ theme: /
         a: Привет приве  тqwe
 
     state: Bye
-        intent!: /пока
+        intent!: /пока teeeeeeeeeeest
         a: Пока покаsdfsdfdsf sdfxcfsdfsdf
         a: Привет привет
 
